@@ -1,5 +1,5 @@
 use List::*;
-
+#[allow(dead_code)]
 enum List {
     // Cons：元组结构体，包含链表的一个元素和一个指向下一节点的指针
     Cons(u32, Box<List>),
